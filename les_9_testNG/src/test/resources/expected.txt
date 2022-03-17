@@ -1,0 +1,32 @@
+BeforeSuite
+BeforeClass
+Test
+AfterMethod
+Test
+Test data: 1 2
+AfterMethod
+AfterMethod
+Test
+Test data: three four
+AfterMethod
+Test
+Test data: true false
+AfterMethod
+BeforeClass
+Test
+Test
+Test
+Test data: 1 2
+AfterMethod
+Test
+Test data: three four
+Test
+Test data: true false
+AfterClass
+AfterClass
+AfterTest
+BeforeTest
+Test
+AfterMethod
+AfterTest
+AfterSuite

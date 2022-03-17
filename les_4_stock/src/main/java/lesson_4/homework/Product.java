@@ -1,0 +1,23 @@
+package lesson_4.homework;
+
+
+public class Product {
+    private String productName;
+
+    public Product(String productName) {
+        this.productName = productName;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    @Override
+    public java.lang.String toString() {
+        return productName;
+    }
+}

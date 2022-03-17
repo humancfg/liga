@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>liga</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>liga</name>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>les_2_beginner</module>
+    <module>les_3_ozon</module>
+    <module>les_4_stock</module>
+    <module>les_6_streams</module>
+    <module>les_7_stock_export_xls</module>
+    <module>les_9_testNG</module>
+  </modules>
+</project>

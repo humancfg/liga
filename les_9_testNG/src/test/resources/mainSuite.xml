@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Main Suite" verbose="1" >
+    <parameter name="data_1"  value="1" />
+    <parameter name="data_2"  value="2" />
+    <parameter name="data_three"  value="three" />
+    <parameter name="data_four"  value="four" />
+    <parameter name="data_true"  value="true" />
+    <parameter name="data_false"  value="false" />
+
+    <test name="Class-1">
+        <classes>
+            <class name="tests.first.FirstTest"/>
+        </classes>
+    </test>
+
+    <test name="Class-2">
+        <classes>
+            <class name="tests.second.SecondTest"/>
+        </classes>
+    </test>
+
+    <test name="Class-3">
+        <classes>
+            <class name="tests.third.ThirdTest"/>
+        </classes>
+    </test>
+
+    <test name="Class-4">
+        <classes>
+            <class name="tests.fourth.FourthTest"/>
+        </classes>
+    </test>
+
+</suite>
+
