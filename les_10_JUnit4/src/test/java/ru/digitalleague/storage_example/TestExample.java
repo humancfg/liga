@@ -81,18 +81,6 @@ public class TestExample {
     }
 
     /**
-     * Проверка на неуспешное удаление с отрицательным значением количества продукта
-     */
-    @Test
-    public void removeWithNegativeAmountTest() {
-        String nonExistFruit = faker.pokemon().name();
-
-        Storage.removeObject(nonExistFruit);
-
-        assertFalse("Не добавленный продукт найден складе", Storage.isInStock(nonExistFruit));
-    }
-
-    /**
      * Проверка на успешное добавление продукта с другим названием при заполненной полке
      */
     @Test
