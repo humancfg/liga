@@ -110,7 +110,7 @@ public class TestExample {
      * Проверка на успешное частичное добавление количества продукта с тем же названием при не до конца заполненной полке
      */
     @Test
-    public void addSameProductWhenShelfNotFullFilled() {
+    public void addSameProductAmountWhenShelfNotFullFilled() {
         String sushi = faker.food().sushi();
         int expectedAmount = 10;
 
