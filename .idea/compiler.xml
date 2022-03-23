@@ -16,5 +16,8 @@
         <module name="les_11_pom_mvideo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="les_11_selenide_mvideo" target="9" />
+    </bytecodeTargetLevel>
   </component>
 </project>

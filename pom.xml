@@ -20,7 +20,7 @@
     <module>les_7_stock_export_xls</module>
     <module>les_9_testNG</module>
     <module>les_10_JUnit4</module>
-    <module>les_11_pom_mvideo</module>
+    <module>les_11_selenide_mvideo</module>
   </modules>
     <dependencies>
         <dependency>
