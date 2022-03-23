@@ -13,6 +13,7 @@
         <module name="Lesson4_Collections" />
         <module name="les_4_stock" />
         <module name="les_9_testNG" />
+        <module name="les_11_pom_mvideo" />
       </profile>
     </annotationProcessing>
   </component>
