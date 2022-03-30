@@ -146,7 +146,7 @@ public class RefrigeratorsAndFreezersPage {
         List<Map<String, SelenideElement>> productList = new ArrayList<>();
         productCardList.forEach(productRow -> productRow.shouldBe(visible));
         for (SelenideElement ele : productCardList) {
-//            ele.scrollIntoView("{block: \"center\"}");
+            ele.scrollIntoView("{block: \"center\"}");
             if (ele.find(By.xpath(innerXpathTitle)).exists()) {
                 productList.add(Map.of(
                         "ELEMENT", ele,
